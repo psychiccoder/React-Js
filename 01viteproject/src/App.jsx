@@ -1,10 +1,16 @@
+import New from "./New"
 
 
 function App() {
- 
+
 
   return (
-      <h1>Vite Project</h1>
+
+    <>
+      <p>Before New App</p>
+      <New />
+      <p>After New App</p>
+    </>
   )
 }
 
