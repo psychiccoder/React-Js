@@ -14,6 +14,9 @@ function Github() {
     //             setdata(data)
     //         })
     // }, [])
+
+
+
     return (
         <div className='text-centre m-4 bg-white text-orange-700 p-4 text-3xl'>
             {/* Github Followers : {data.followers}
@@ -45,3 +48,10 @@ export const githubInfoLoader = async () => {
     const response = await fetch('https://api.github.com/users/psychiccoder')
     return response.json()
 }
+
+// export const githubInfoLoader = () => {
+//     return fetch('https://api.github.com/users/psychiccoder')
+//         .then(response => response.json())
+
+
+// };
