@@ -9,9 +9,9 @@ function App() {
 
   return (
     <UserContextProvider>
-       <h1>React with Pushkar  and job is important/h1>
-        <Login />
-        <Profile />
+      <h1>React with Pushkar and job is important</h1>
+      <Login />
+      <Profile />
     </UserContextProvider>
   )
 }

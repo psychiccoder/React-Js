@@ -4,4 +4,3 @@ const userContext = React.createContext()
 
 
 export default userContext;
-
