@@ -11,8 +11,9 @@ function App() {
       style={{ backgroundColor: color }}
     >
       {/* <h1>Hello</h1> */}
-      <h1 class="  text-4xl font-bold text-center mt-8"
-        style={{ backgroundColor: "tomato" }}>All Rainbow Color</h1>
+      <h1 class="text-4xl font-bold text-center mt-8"
+        style={{ color: "black" }}
+      >All Rainbow Color</h1>
 
 
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2"
