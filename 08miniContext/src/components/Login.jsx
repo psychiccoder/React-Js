@@ -12,19 +12,27 @@ function Login() {
         setUser({ username, password })
     }
     return (
-        <div>
+
+        <div className='logindiv'>
+
             <h2>Login</h2>
-            <input type='text'
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                placeholder='username' />
-            {" "}
-            <input type='text'
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder='password' />
-            <button onClick={handleSubmit}>Submit</button>
-        </div>
+
+            <div  >
+                <input type='text'
+
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    placeholder='username' />
+                {/* {" "} */}
+                <br />
+                <input type='password'
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    placeholder='password' />
+                <br />
+                <button onClick={handleSubmit}>Submit</button>
+            </div>
+        </div >
     )
 }
 
